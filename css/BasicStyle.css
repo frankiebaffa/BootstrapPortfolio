@@ -1,0 +1,117 @@
+/*====================================
+    Basic style modifications for
+    index.html
+    -Frankie Baffa
+======================================
+Seafoam Color Palette:
+Name:       Hex:        RGB:
+Spring Rain #a3c1ad     (163,193,173)
+Vista Blue  #a0d6b4     (160,214,180)
+Breaker Bay #5f9ea0     (95,158,160)
+Ming        #317873     (49,120,115)
+Como        #49796b     (73,121,107)
+====================================*/
+body {
+    background-color: #a3c1ad;
+}
+
+.navbar {
+    background-image: none;
+    background-color: #49796b;
+    height: 50px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #000;
+    font-family: courier;
+    font-size: 17px;
+}
+
+.SectionA {
+    background-color: #5f9ea0;
+}
+
+.HeaderA {
+    color: #a3c1ad;
+    text-align: center;
+    font-family: courier;
+    font-size: 50px;
+    text-shadow: 2px 2px #000;
+}
+
+.SectionB {
+    background-color: #317873;
+}
+
+.HeaderB {
+    color: #a3c1ad;
+    text-align: center;
+    font-family: courier;
+    font-size: 50px;
+    text-shadow: 2px 2px #000;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    padding-right: 350px;
+    padding-top: 50px;
+    /*padding-left: 50px;
+    padding-top: 25px;*/
+    color: #5f9ea0;
+    font-family: courier;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-shadow: 2px 2px #000;
+}
+
+.caption2 {
+    position: absolute;
+    text-align: left;
+    color: #5f9ea0;
+    font-family: courier;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-shadow: #000
+}
+
+.Contact {
+    text-align: center;
+    font-size: 25px;
+    font-family: courier;
+}
+
+.About {
+    font-family: courier;
+    font-size: 25px;
+    color: #a0d6b4;
+}
+
+@media (min-width:600px) {
+    .caption {
+        font-size: 80px;
+    }
+    .caption2 {
+        font-size: 80px;
+        /*padding: 90px 0 0 50px;*/
+    }
+}
+
+@media (max-width:599px) {
+    .caption {
+        font-size: 50px;
+    }
+    .caption2 {
+        font-size: 50px;
+/*        padding: 70px 0 0 50px;*/
+    }
+}
