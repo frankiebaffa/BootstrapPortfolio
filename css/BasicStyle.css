@@ -28,8 +28,20 @@ body {
     font-size: 17px;
 }
 
+.caption {
+    position: absolute;
+    text-align: center;
+    color: #5f9ea0;
+    font-family: courier;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-shadow: 2px 2px #000;
+}
+
 .SectionA {
     background-color: #5f9ea0;
+    padding: 1rem 0 1rem 0;
 }
 
 .HeaderA {
@@ -40,8 +52,25 @@ body {
     text-shadow: 2px 2px #000;
 }
 
+.SubHeaderA {
+    color: #a0d6b4;
+    text-shadow: 1px 1px #000;
+    font-size: 1.25rem;
+    text-align: left;
+    font-family: courier;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.ParagraphA {
+    color: #317873;
+    text-align: left;
+    font-family: courier;
+    margin: 0 1rem 1rem 1rem;
+}
+
 .SectionB {
     background-color: #317873;
+    padding: 1rem 0 1rem 0;
 }
 
 .HeaderB {
@@ -52,36 +81,26 @@ body {
     text-shadow: 2px 2px #000;
 }
 
+.SubHeaderB {
+    color: #5f9ea0;
+    text-shadow: 1px 1px #000;
+    font-size: 1.25rem;
+    text-align: left;
+    font-family: courier;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.ParagraphB {
+    color: #5f9ea0;
+    text-align: left;
+    font-family: courier;
+    margin: 0 1rem 1rem 1rem;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;
     padding-top: 25px;
-}
-
-.caption {
-    position: absolute;
-    text-align: center;
-    padding-right: 350px;
-    padding-top: 50px;
-    /*padding-left: 50px;
-    padding-top: 25px;*/
-    color: #5f9ea0;
-    font-family: courier;
-    top: 45%;
-    left: 0;
-    width: 100%;
-    text-shadow: 2px 2px #000;
-}
-
-.caption2 {
-    position: absolute;
-    text-align: left;
-    color: #5f9ea0;
-    font-family: courier;
-    top: 45%;
-    left: 0;
-    width: 100%;
-    text-shadow: #000
 }
 
 .Contact {
@@ -96,22 +115,82 @@ body {
     color: #a0d6b4;
 }
 
-@media (min-width:600px) {
+/*============================
+    Smaller
+============================*/
+
+@media (min-width: 5px) {
     .caption {
-        font-size: 80px;
+        font-size: 2rem;
+        padding-right: 10rem;
+        padding-top: 2rem;
     }
-    .caption2 {
-        font-size: 80px;
-        /*padding: 90px 0 0 50px;*/
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 0.85rem;
     }
 }
 
-@media (max-width:599px) {
+/*============================
+    Small
+===========================-*/
+
+@media (min-width: 576px) {
     .caption {
-        font-size: 50px;
+        font-size: 3rem;
+        padding-right: 15rem;
+        padding-top: 3rem;
     }
-    .caption2 {
-        font-size: 50px;
-/*        padding: 70px 0 0 50px;*/
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 0.9rem;
+    }
+}
+
+/*============================
+    Medium
+===========================-*/
+
+@media (min-width: 768px) {
+    .caption {
+        font-size: 4rem;
+        padding-right: 20rem;
+        padding-top: 3rem;
+    }
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 1rem;
+    }
+}
+
+/*============================
+    Large
+===========================-*/
+
+ @media (min-width: 992px) {
+    .caption {
+        font-size: 4rem;
+        padding-right: 25rem;
+        padding-top: 3rem;
+    }
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 1rem;
+    }
+}
+
+/*============================
+    Extra Large
+===========================-*/
+
+@media (min-width: 1200px) {
+    .caption {
+        font-size: 5rem;
+        padding-right: 25rem;
+        padding-top: 3rem;
+    }
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 1rem;
     }
 }
