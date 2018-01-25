@@ -5,11 +5,13 @@
 ======================================
 Seafoam Color Palette:
 Name:       Hex:        RGB:
+Black       #000000     (0,0,0)
 Spring Rain #a3c1ad     (163,193,173)
 Vista Blue  #a0d6b4     (160,214,180)
 Breaker Bay #5f9ea0     (95,158,160)
 Ming        #317873     (49,120,115)
 Como        #49796b     (73,121,107)
+White       #ffffff     (255,255,255)
 ====================================*/
 body {
     background-color: #a3c1ad;
@@ -31,7 +33,7 @@ body {
 .caption {
     position: absolute;
     text-align: center;
-    color: #5f9ea0;
+    color: #ffffff;
     font-family: courier;
     top: 45%;
     left: 0;
@@ -45,7 +47,7 @@ body {
 }
 
 .HeaderA {
-    color: #a3c1ad;
+    color: #317873;
     text-align: center;
     font-family: courier;
     font-size: 50px;
@@ -62,7 +64,7 @@ body {
 }
 
 .ParagraphA {
-    color: #317873;
+    color: #000000;
     text-align: left;
     font-family: courier;
     margin: 0 1rem 1rem 1rem;
@@ -91,7 +93,7 @@ body {
 }
 
 .ParagraphB {
-    color: #5f9ea0;
+    color: #ffffff;
     text-align: left;
     font-family: courier;
     margin: 0 1rem 1rem 1rem;
