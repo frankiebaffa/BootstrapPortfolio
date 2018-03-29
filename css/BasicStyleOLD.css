@@ -1,0 +1,202 @@
+/*====================================
+    Basic style modifications for
+    index.html
+    -Frankie Baffa
+======================================
+Seafoam Color Palette:
+Name:       Hex:        RGB:
+Black       #000000     (0,0,0)
+Spring Rain #a3c1ad     (163,193,173)
+Vista Blue  #a0d6b4     (160,214,180)
+Breaker Bay #5f9ea0     (95,158,160)
+Ming        #317873     (49,120,115)
+Como        #49796b     (73,121,107)
+White       #ffffff     (255,255,255)
+====================================*/
+body {
+    background-color: #a3c1ad;
+}
+
+.navbar {
+    background-image: none;
+    background-color: #49796b;
+    height: 50px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #000;
+    font-family: courier;
+    font-size: 17px;
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-family: courier;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-shadow: 2px 2px #000;
+}
+
+.SectionA {
+    background-color: #5f9ea0;
+    padding: 1rem 0 1rem 0;
+}
+
+.HeaderA {
+    color: #317873;
+    text-align: center;
+    font-family: courier;
+    font-size: 50px;
+    text-shadow: 2px 2px #000;
+}
+
+.SubHeaderA {
+    color: #a0d6b4;
+    text-shadow: 1px 1px #000;
+    font-size: 1.25rem;
+    text-align: left;
+    font-family: courier;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.ParagraphA {
+    color: #000000;
+    text-align: left;
+    font-family: courier;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.SectionB {
+    background-color: #317873;
+    padding: 1rem 0 1rem 0;
+}
+
+.HeaderB {
+    color: #a3c1ad;
+    text-align: center;
+    font-family: courier;
+    font-size: 50px;
+    text-shadow: 2px 2px #000;
+}
+
+.SubHeader {
+    color: #ffffff;
+    text-shadow: 1px 1px #000;
+    font-size: 1.25rem;
+    text-align: left;
+    font-family: courier;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.Paragraph {
+    color: #000000;
+    text-align: left;
+    font-family: courier;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+
+.Contact {
+    text-align: center;
+    font-size: 25px;
+    font-family: courier;
+}
+
+.About {
+    font-family: courier;
+    font-size: 25px;
+    color: #a0d6b4;
+}
+
+.btn-link {
+    color: #ffffff;
+}
+
+/*============================
+    Smaller
+============================*/
+
+@media (min-width: 5px) {
+    .caption {
+        font-size: 2rem;
+        padding-right: 10rem;
+        padding-top: 2rem;
+    }
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 0.85rem;
+    }
+}
+
+/*============================
+    Small
+===========================-*/
+
+@media (min-width: 576px) {
+    .caption {
+        font-size: 3rem;
+        padding-right: 15rem;
+        padding-top: 3rem;
+    }
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 0.9rem;
+    }
+}
+
+/*============================
+    Medium
+===========================-*/
+
+@media (min-width: 768px) {
+    .caption {
+        font-size: 4rem;
+        padding-right: 20rem;
+        padding-top: 3rem;
+    }
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 1rem;
+    }
+}
+
+/*============================
+    Large
+===========================-*/
+
+ @media (min-width: 992px) {
+    .caption {
+        font-size: 4rem;
+        padding-right: 25rem;
+        padding-top: 3rem;
+    }
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 1rem;
+    }
+}
+
+/*============================
+    Extra Large
+===========================-*/
+
+@media (min-width: 1200px) {
+    .caption {
+        font-size: 5rem;
+        padding-right: 25rem;
+        padding-top: 3rem;
+    }
+    .ParagraphA,
+    .ParagraphB {
+        font-size: 1rem;
+    }
+}
