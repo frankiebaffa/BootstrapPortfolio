@@ -31,7 +31,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span>
+        <span class="d-block d-lg-none  mx-0 px-0">Portfolio</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/linkedin250.jpg" alt="">
         </span>
@@ -79,7 +79,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 <span class="text-primary">Baffa</span>
               </h1>
               <div class="subheading mb-5">I think, therefore I am.</div>
-              <p class="mb-5" style="max-width: 500px;">
+              <p class="mb-5" id="aboutText" style="max-width: 500px;">
                   Inspired by philosophy, logic, music, and the sciences. This website
                   is currently being developed as I complete my courses at The Tech Academy.
               </p>
@@ -295,36 +295,31 @@ License URL: https://creativecommons.org/licenses/by/4.0/
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-html5 fa-5x"></i>
-                      <h2><span class="counter"> 00 </span><span>%</span></h2>
-                      <p>HTML5</p>
+                      <h2><span> HTML5 </span></h2>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-css3 fa-5x"></i>
-                      <h2><span class="counter"> 00 </span><span>%</span></h2>
-                      <p>CSS3</p>
+                      <h2><span> CSS3 </span></h2>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-code fa-5x"></i>
-                      <h2><span class="counter"> 00 </span><span>%</span></h2>
-                      <p>JQuery</p>
+                      <h2><span> JQuery </span></h2>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-globe fa-5x"></i>
-                      <h2><span class="counter"> 00 </span><span>%</span></h2>
-                      <p>C#</p>
+                      <h2><span> C# </span></h2>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-git fa-5x"></i>
-                      <h2><span class="counter"> 00 </span><span>%</span></h2>
-                      <p>Git</p>
+                      <h2><span> Git </span></h2>
                   </div>
               </div>
           </div>
@@ -904,23 +899,23 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     <script>
         $(document).ready(function(){
 
-        $(".filter-b").click(function(){
-            var value = $(this).attr('data-filter');
-            if(value == "all")
-            {
-                $('.filter').show('1000');
-            }
-            else
-            {
-                $(".filter").not('.'+value).hide('3000');
-                $('.filter').filter('.'+value).show('3000');
-            }
-        });
+            $(".filter-b").click(function(){
+                var value = $(this).attr('data-filter');
+                if(value == "all")
+                {
+                    $('.filter').show('1000');
+                }
+                else
+                {
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+                }
+            });
 
         if ($(".filter-b").removeClass("active")) {
           $(this).removeClass("active");
         }
-        $(this).addClass("active");
+            $(this).addClass("active");
         });
 
         // SKILLS
