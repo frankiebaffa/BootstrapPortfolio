@@ -227,6 +227,10 @@ a:active {
 ====================================================*/
   #experience {
     background: #f5f5f5;
+    background-image: url("../img/setup.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 
   #experience .card h4{
@@ -395,13 +399,12 @@ a:active {
         display: none;
     }
 }
-
 /*====================================================
                       SKILLS
 ======================================================*/
 
 #skills {
-    background-image: url("../img/bg-stats.jpg");
+    background-image: url("../img/code.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -665,13 +668,19 @@ a:active {
 /*====================================================
                    CONTACT
 ======================================================*/
+#contactme{
+    background-image: url("../img/letter.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
 #contact{
   padding: 50px 0;
 }
 
 #contact .contact-cont h3{
-  color:#555;
+  color:#315d84;
   font-size: 45px;
 }
 
