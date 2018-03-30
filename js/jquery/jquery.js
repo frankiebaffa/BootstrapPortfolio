@@ -12,9 +12,6 @@
  * Date: 2017-03-20T18:59Z
  */
 
-//	Insert text from file
-//
-
 ( function( global, factory ) {
 
 	"use strict";
