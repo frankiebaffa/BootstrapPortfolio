@@ -244,6 +244,10 @@ a:active {
 ======================================================*/
 
 #portfolio{
+    background-image: url(../img/portfolio.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     padding:100px 0;
 }
 
@@ -668,6 +672,10 @@ a:active {
 /*====================================================
                    CONTACT
 ======================================================*/
+#contact-info{
+    padding-right: 10px;
+}
+
 #contactme{
     background-image: url("../img/letter.jpg");
     background-size: cover;
