@@ -24,7 +24,8 @@ h6 {
     font-weight: 700;
     text-transform: uppercase;
     /*color: #343a40;*/
-    color: #315d84;
+    /*color: #315d84;*/
+    color: #2196f3;
 }
 
 h1 {
@@ -205,7 +206,8 @@ a:active {
   }
 
   .text-primary {
-      color: #2196f3 !important;
+      /*color: #2196f3 !important;*/
+      color: #315d84 !important;
   }
 
 /*==================================================
